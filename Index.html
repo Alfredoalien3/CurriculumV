@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a id="logo" class="fx-row" onclick="mostrarMensajeInicial()">
+            <img src="" title="">
+          </a>
+      
+          <nav class="menu">
+      
+            <ul class="menus">
+              <li><a href="#biografia">Biografia</a></li>
+              <li><a href="#experiencia">Experiencia</a></li>
+              <li><a href="#trabajos">Trabajos</a></li>
+              <li><a href="#ubicacion">Ubicación</a></li>
+            </ul>
+      
+          </nav>
+      
+          <a id="contacto" href="#footer" class="fx-row">
+            <img src="" title="Contactame">
+          </a>
+      
+    </header>
+    <main>
+        <section id="home">
+            <div class="home-banner">
+                <h1>Curriculum Vitae</h1>
+                <h3>Bienvenido a mi curriculum</h3>
+                <p>Aqui se encontrara todo mi historial laboral actual</p>
+              </div>
+        </section>
+
+        <section id="biografia">
+            <h1>Biografia</h1>
+            <p>Descripcion de mi en el ambito laboral.</p>
+            <p>Principalmente empecé a trabajar a los 18 años, pero en el apartado de ingeniería a partir de los 22,</p>
+            <p>las 2 empresas principales fueron; EDLMARC y Rhino Maquinaria.</p>
+            <p>Mas adelante se mostraran capturas y trabajos realizados en ellas,</p>
+            <p>ademas de mis skills obtenidas antraves de los años</p>
+
+        </section>
+
+        <section id="experiencia">
+            <h1>Experiencia</h1><div class="card">
+                <img src="" alt="Skill 1">
+                <h3>Analisis de Datos</h3>
+                <p>Estuve analizando datos de Rhino por un año para mantener informacion que se podia utilizar en futuras obras de ingenieria civil.</p>
+                
+              </div>
+      
+              <div class="card">
+                <img src="" alt="Skill 2">
+                <h3>Documentacion de software</h3>
+                <p>Realize ducumentacion por almenos 2 años en edalmarc con softwares realizados por mi y en equipo con mas personas.</p>
+                
+              </div>
+              <div class="card">
+                <img src="" alt="Skill 3">
+                <h3>Administracion</h3>
+                <p>Estuve de administrador de obra y jefe de equipo por 2 años en Rhino en obras de campo.</p>
+                
+              </div>
+              <div class="card">
+                <img src="" alt="Skill 4">
+                <h3>Programacion en C++</h3>
+                <p>Por cuestion de desarrollo tengo habilidades medias en el ambito de programacion de C++ para el desarrollo de software.</p>
+                
+              </div>
+
+        </section>
+
+        <section id="trabajos">
+            <h1>Trabajos</h1>
+            <div class="card-container">
+
+                <div class="card">
+                  <img src="" alt="Trabajo 1">
+                  <h3>Administracion de informacion del Personal</h3>
+                  <p>Manejaba la informacion personal de los trabajadores en una base de datos ya sea el salario, horas trabajadas o puntualidad.</p>
+                  
+                </div>
+        
+                <div class="card">
+                  <img src="" alt="Trabajo 2">
+                  <h3>Bic-Edalmarc</h3>
+                  <p>Se realizo una software pare escritorio y smartphone de una bitacora que envia los reportes de los tecnicos a los ingenieros en las oficinas.</p>
+                  
+                </div>
+        </section>
+
+        <section id="ubicacion">
+            <h1>Ubicación</h1>
+            <div class="mapa-container">
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.679358253145!2d-110.96292377235254!3d29.083476290370804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce8447973925f7%3A0xcf527709b7555a3!2sUniversidad%20de%20Sonora%20-%20UNISON!5e0!3m2!1ses-419!2smx!4v1693417806913!5m2!1ses-419!2smx"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+        
+                </iframe>
+        
+                <div class="mapa-overlay">
+        
+                  <div class="direccion">
+        
+                    <h3>Ubícame</h3>
+                    <p>Blvd. Luis Encinas y Rosales S/N, Centro.</p>
+                    <p>Hermosillo, Sonora, México.</p>
+        
+                    <a class="button-link" href="https://goo.gl/maps/gwhkzSBvWT7bR4x18" target="_blank">
+                      Como llegar
+                    </a>
+        
+                  </div>
+        
+                </div>
+        
+              </div>
+
+        </section>
+    </main>
+    <footer id="footer">
+
+        <div class="contacto-container">
+    
+          <h2>Contacto</h2>
+    
+          <form id="contacto-form">
+    
+            <input type="text" id="nombre" placeholder="Nombre" required>
+    
+            <input type="email" id="email" placeholder="Email" required>
+    
+            <button type="submit" class="btn">Enviar</button>
+    
+          </form>
+    
+        </div>
+    
+        <div class="redes-sociales-container">
+    
+          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    
+        </div>
+    
+        <p>Desarrollares ISI &copy; 2023</p>
+    
+      </footer>
+      <button id="btn-ir-arriba" >
+        <svg viewBox="0 0 24 24">
+          <path d="m4 16 8-8 8 8"></path>
+        </svg>
+      </button>
+</body>
+</html>
