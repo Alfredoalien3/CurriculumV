@@ -23,7 +23,7 @@
   }
   
   
-  /* #region HEADER */
+
   
   header {
     display: flex;
@@ -40,6 +40,19 @@
   
     z-index: 1;
   }
+  #logo,
+#contacto {
+  display: flex;
+  height: 55px;
+  width: 55px;
+  margin: 10px;
+}
+
+#logo,
+#contacto > img {
+  width: auto;
+  padding: 5px;
+}
   
   .mapa-container {
     position: relative;
