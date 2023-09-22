@@ -16,5 +16,17 @@ document.addEventListener("DOMContentLoaded", () => {
       // behavior: 'smooth'
     });
   });
+  const contactoForm = document.getElementById('contacto-form');
 
+  contactoForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+  
+    const nombre = document.getElementById("nombre").value;
+    const email = document.getElementById("email").value;
+  
+  
+    alert('Gracias por contactarnos - Nombre: ' + nombre + '- Email: ' + email );
+  
+    contactoForm.reset();
+  });
 });
